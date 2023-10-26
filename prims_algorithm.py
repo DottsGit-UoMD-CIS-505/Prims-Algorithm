@@ -1,4 +1,6 @@
 """
+Prim's Algorithm
+
 Author: Nicholas Butzke
 """
 from math import inf
@@ -7,6 +9,8 @@ from math import inf
 def prims(beginning_vertex, graph: list[list[int]]):
     """
     Prims Algorithm
+    Arg1 is the vertex to start the MST at
+    Arg2 is a 2D graph representing the vertices and edges
     """
     minimum_spanning_tree = [beginning_vertex - 1]
     total_cost = 0

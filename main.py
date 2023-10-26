@@ -1,4 +1,6 @@
 """
+Run's Prim's Algorithm
+
 Author: Nicholas Butzke
 """
 from math import inf
